@@ -7,9 +7,9 @@ const Type = () => {
           options={{
             strings: [
               "MERN Stack Developer",
-              "Passionate Blockchain Enthusiast",
-              "Committed Open Source Contributor",
-              "Effective Problem Solver"
+              "AI developer",
+              "E-commerce Developer",
+              "Open Source Developer"
             ],
             autoStart: true,
             loop: true,
@@ -20,3 +20,5 @@ const Type = () => {
 }
 
 export default Type
+
+// font : Chaparral Pro Light
