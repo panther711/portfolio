@@ -1,18 +1,23 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  DiDjango,
   DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiGit,
+  DiJira,
 } from "react-icons/di";
 import {
-  SiMaterialui,
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
+  SiAmazonaws,
+  SiAngularjs,
+  SiDocker,
+  SiFirebase,
+  SiGit,
+  SiHtml5,
   SiMongodb,
-  SiHtml5
+  SiMysql,
+  SiNextdotjs,
+  SiPython,
+  SiReact,
+  SiVuedotjs
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -25,28 +30,43 @@ const Techstack = () => {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiAngularjs />
+      </Col>      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
       </Col>
     </Row>
   );

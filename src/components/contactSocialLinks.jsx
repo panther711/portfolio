@@ -2,10 +2,10 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 const ContactSocialLinks = (progs) => {
   return (
@@ -27,9 +27,9 @@ const ContactSocialLinks = (progs) => {
             <AiFillGithub />
           </a>
         </li>
-        <li className={progs.liClassName}>
+        {/* <li className={progs.liClassName}>
           <a
-            href="https://twitter.com/19sajib"
+            href="https://twitter.com/panther711"
             target="_blank"
             rel="noreferrer"
             className="icon-colour  home-social-icons"
@@ -40,7 +40,7 @@ const ContactSocialLinks = (progs) => {
         </li>
         <li className={progs.liClassName}>
           <a
-            href="https://www.linkedin.com/in/19sajib/"
+            href="https://www.linkedin.com/ca/panther711/"
             target="_blank"
             rel="noreferrer"
             className="icon-colour  home-social-icons"
@@ -51,7 +51,7 @@ const ContactSocialLinks = (progs) => {
         </li>
         <li className={progs.liClassName}>
           <a
-            href="https://www.instagram.com/19sajib"
+            href="https://www.instagram.com/panther711"
             target="_blank"
             rel="noreferrer"
             className="icon-colour home-social-icons"
@@ -59,7 +59,7 @@ const ContactSocialLinks = (progs) => {
           >
             <AiFillInstagram />
           </a>
-        </li>
+        </li> */}
       </ul>
     </Container>
   );

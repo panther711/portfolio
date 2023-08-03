@@ -1,10 +1,10 @@
 import React from "react";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialsLink = (progs) => {
   console.log("ulCalssName : ", progs.uiClassName);
@@ -22,9 +22,9 @@ const SocialsLink = (progs) => {
           <AiFillGithub />
         </a>
       </li>
-      <li className={progs.liClassName}>
+      {/* <li className={progs.liClassName}>
         <a
-          href="https://twitter.com/19sajib"
+          href="https://twitter.com/panther711"
           style={{ color: "white" }}
           target="_blank"
           rel="noopener noreferrer"
@@ -35,7 +35,7 @@ const SocialsLink = (progs) => {
       </li>
       <li className={progs.liClassName}>
         <a
-          href="https://www.linkedin.com/in/19sajib/"
+          href="https://www.linkedin.com/ca/panther711/"
           style={{ color: "white" }}
           target="_blank"
           rel="noopener noreferrer"
@@ -46,7 +46,7 @@ const SocialsLink = (progs) => {
       </li>
       <li className={progs.liClassName}>
         <a
-          href="https://www.instagram.com/19sajib"
+          href="https://www.instagram.com/panther711"
           style={{ color: "white" }}
           target="_blank"
           rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const SocialsLink = (progs) => {
         >
           <AiFillInstagram />
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 };

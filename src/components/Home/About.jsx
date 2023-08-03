@@ -50,6 +50,7 @@ const About = () => {
                 as well as exploring areas related to
                 <b className="yellow"> Artificial Intelligence.</b>
               </i>
+              &nbsp;&nbsp;This is my <b className="yellow">second area of expertise.</b>
               <br />
             </p>
           </Col>
