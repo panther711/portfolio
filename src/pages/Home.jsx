@@ -8,7 +8,7 @@ import Type from '../components/Home/Type';
 const Home = () => {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section" id="home" font="Chaparral">
         <Particle />
         <Container className="home-content">
           <Row>
@@ -22,7 +22,7 @@ const Home = () => {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Md Abu Bakkar Siddiqe Sajib</strong>
+                <strong className="main-name"> James Han</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

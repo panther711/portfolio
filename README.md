@@ -22,12 +22,12 @@
      </thead>
     <tbody>
          <tr>
-            <td><a href="https://github.com/19sajib/portfolio"</a>Project</td>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/19sajib/portfolio?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/19sajib/portfolio?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/19sajib/portfolio?style=flat&color=critical&logo=github"/></td>
+            <td><a href="https://github.com/panther711/portfolio"</a>Project</td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/panther711/portfolio?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/panther711/portfolio?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/panther711/portfolio?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/panther711/portfolio?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/panther711/portfolio?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>

@@ -9,7 +9,7 @@ const Type = () => {
               "MERN Stack Developer",
               "AI developer",
               "E-commerce Developer",
-              "Open Source Developer"
+              "Open Source Contributor"
             ],
             autoStart: true,
             loop: true,
