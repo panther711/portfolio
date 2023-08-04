@@ -97,9 +97,20 @@ const Projects = () => {
           
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={rabbitmar}
+              isBlog={false}
+              title="Groceries and more in 20 minutes"
+              description="Rabbit Mart is a new Egyptian startup that guarantees delivery within 20 minutes of specified locations. While Rabbit Mart is only available on mobile platforms, our job is to make the shopping experience available to web users as well."
+              ghLink="https://github.com/panther711/rabbitmart"
+              demoLink="https://rabbitmart-cm.vercel.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={channelize}
               isBlog={false}
-              title="AI Avatar Generator"
+              title="Live shopping"
               description="Channelize.io’s Essential Components that successfully launch Live Shopping and Real-time Engagement feature for your buyers and users, without reinventing the wheel."
               ghLink="https://github.com/panther711/freeGPT"
               demoLink="https://channelize.io/"
@@ -108,20 +119,9 @@ const Projects = () => {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rabbitmar}
-              isBlog={false}
-              title="Free ChatGPT"
-              description="Rabbit Mart is a new Egyptian startup that guarantees delivery within 20 minutes of specified locations. While Rabbit Mart is only available on mobile platforms, our job is to make the shopping experience available to web users as well."
-              ghLink="https://github.com/panther711/freeGPT"
-              demoLink="https://rabbitmart-cm.vercel.app/"
-            />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={travel}
               isBlog={false}
-              title="AI Avatar Generator"
+              title="Travel over the maps"
               description="✔ MapsApp is a project where I make use of maps with Mapbox using React + Typescript and using APIS. In this I learned how to consume the mapbox.com API, how to use the addresses, show the lines (polylines), show how long the route is and how long is the approximate duration to reach the destination and other things."
               ghLink="https://github.com/panther711/maps"
               demoLink="https://mapsapp.vercel.app/"
